@@ -1,5 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import About from "./pages/Home/About";
+import Contract from "./pages/Home/Contract";
 import Home from './pages/Home/Home';
 import Projects from "./pages/Home/Projects";
 import Skills from "./pages/Home/Skills";
@@ -14,6 +15,7 @@ function App() {
         <Route path="about" element={<About></About>}></Route>
         <Route path="skills" element={<Skills></Skills>}></Route>
         <Route path="projects" element={<Projects></Projects>}></Route>
+        <Route path="contract" element={<Contract></Contract>}></Route>
       </Routes>
 
     </div>
