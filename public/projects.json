@@ -1,0 +1,28 @@
+[
+    {
+        "id": 1,
+        "name": "Bicycle",
+        "theme": "Bicycle Parts Manufacture",
+        "img": "https://i.ibb.co/sw3t7Rc/Background-1.png",
+        "live": "https://bicycle-manufacture.web.app/",
+        "client": "https://github.com/nurulamin092/manufacture-webapp-client",
+        "server": "https://github.com/nurulamin092/-manufacture-webapp-server"
+    },
+    {
+        "id": 2,
+        "name": "Laptop",
+        "theme": "Warehouse management",
+        "img": "https://i.ibb.co/xCjMNPL/banner1.png",
+        "live": "https://laptop-warehouse-9b862.web.app/",
+        "client": "https://github.com/nurulamin092/warehouse-management-client",
+        "server": "https://github.com/nurulamin092/warehouse-management-server"
+    },
+    {
+        "id": 3,
+        "name": "Tooth Routine exams",
+        "theme": "Doctor Service",
+        "img": "https://i.ibb.co/6b46Lz9/Background.png",
+        "live": "https://doctor-service-provider.web.app/",
+        "client": "https://github.com/nurulamin092/doctor-service-client"
+    }
+]
