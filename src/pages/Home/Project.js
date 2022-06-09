@@ -3,7 +3,7 @@ import React from 'react';
 const Project = ({ project }) => {
     const { img, name, theme, live, client, server } = project;
     return (
-        <div>
+        <div className='card lg:max-w-lg bg-base-100 shadow-xl'>
             <div
                 style={{ backgroundImage: `url(${img})` }}
                 className="shadow-lg shadow-dark group container rounded-md flex justify-center items-center mx-auto content-div"
