@@ -7,6 +7,7 @@ import Skills from "./pages/Home/Skills";
 import Navbar from "./pages/Shared/Navbar";
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Blogs from "./pages/Home/Blogs";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Route path="about" element={<About></About>}></Route>
         <Route path="skills" element={<Skills></Skills>}></Route>
         <Route path="projects" element={<Projects></Projects>}></Route>
+        <Route path="blogs" element={<Blogs></Blogs>}></Route>
         <Route path="contract" element={<Contract></Contract>}></Route>
       </Routes>
       <ToastContainer />
