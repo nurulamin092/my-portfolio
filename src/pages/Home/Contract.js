@@ -18,7 +18,7 @@ const Contract = () => {
         <div>
 
             <form ref={form} onSubmit={sendEmail}>
-                <div className=' px-10 py-14 bg-slate-900'>
+                <div className=' px-10 py-14 bg-slate-900 rounded-3xl'>
                     <div className='text-center pb-14 text-white'>
 
                         <h1 className='text-4xl'> Contact Me</h1>
@@ -43,7 +43,7 @@ const Contract = () => {
                             rows={6}
                         ></textarea>
 
-                        <input className='btn btn-secondary' type="submit" value="Send Message" />
+                        <input className='btn btn-outline btn-secondary' type="submit" value="Send Message" />
                     </div>
                 </div>
             </form>

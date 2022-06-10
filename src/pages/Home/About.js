@@ -15,7 +15,7 @@ const About = () => {
                         </div>
                     </div>
                     <div>
-                        <h1 className='text-5xl text-center'>About Us</h1>
+                        <h1 className='text-5xl text-center'>About Me</h1>
                         <p className="py-6">I design and develop services for customers specializing creating stylish, modern websites, web services and online stores. My passion is to design digital user experiences through meaningful interactions. Check out my Portfolio</p>
                         <h2 className='text-4xl my-3 font-bold'>Personal Info</h2>
                         <h3 className="text-2xl "> Name: Nurul Amin</h3>
@@ -23,7 +23,7 @@ const About = () => {
                         <p>Phone: +8801817677741</p>
                         <p>Email: mnurulamin092@outlook.com</p>
 
-                        <button className="btn btn-primary">View More</button>
+                        <button className="btn bg-primary hover:bg-gradient-to-r from-cyan-500 to-blue-500 my-5 text-white">View More</button>
                     </div>
                 </div>
             </div>
