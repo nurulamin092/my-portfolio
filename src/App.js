@@ -5,6 +5,8 @@ import Home from './pages/Home/Home';
 import Projects from "./pages/Home/Projects";
 import Skills from "./pages/Home/Skills";
 import Navbar from "./pages/Shared/Navbar";
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         <Route path="projects" element={<Projects></Projects>}></Route>
         <Route path="contract" element={<Contract></Contract>}></Route>
       </Routes>
+      <ToastContainer />
 
     </div>
   );
