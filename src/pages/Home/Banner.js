@@ -4,7 +4,7 @@ const Banner = () => {
 
     return (
         <div>
-            <div>
+            <div >
                 <div className="hero min-h-screen">
                     <div className="hero-content flex-col lg:flex-row-reverse">
                         <img className='rounded-full' src={img6} alt='' />
@@ -13,7 +13,7 @@ const Banner = () => {
                             <p className="py-6"> I'm A Web Developer & Mern Stack</p>
                             {/* <button className="btn btn-primary">Get Started</button> */}
                             {/* <Link to="https://drive.google.com/file/d/1_vU3PAib9XKVxxA4ubyFn-GVaWihHECj/view?usp=sharing">Download Resume</Link> */}
-                            <a href='https://drive.google.com/file/d/1_vU3PAib9XKVxxA4ubyFn-GVaWihHECj/view?usp=sharing' target='_blank'> <button className='btn btn-primary'>Download Resume</button></a>
+                            <a href='https://drive.google.com/file/d/1_vU3PAib9XKVxxA4ubyFn-GVaWihHECj/view?usp=sharing' target='_blank'> <button className='btn btn-primary transition duration-150 ease-in-out'>Download Resume</button></a>
                         </div>
                     </div>
                 </div>
