@@ -7,7 +7,7 @@ const Contract = () => {
         e.preventDefault();
         emailjs.sendForm('service_hpavzy4', 'template_ughsips', form.current, '5ltVPwx4OQ4P-qb_N')
             .then((result) => {
-                toast.success('Email is successful')
+                toast.success('Message send is successful')
                 console.log(result.text);
             }, (error) => {
                 console.log(error.text);
@@ -43,7 +43,7 @@ const Contract = () => {
                             rows={6}
                         ></textarea>
 
-                        <input className='btn btn-secondary' type="submit" value="Send" />
+                        <input className='btn btn-secondary' type="submit" value="Send Message" />
                     </div>
                 </div>
             </form>
