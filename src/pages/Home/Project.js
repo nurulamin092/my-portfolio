@@ -1,41 +1,23 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 
 const Project = ({ project }) => {
-    const { img, name, theme, live, client, server } = project;
+    const { id, img, name, technology, theme, live, client, server } = project;
+    const navigate = useNavigate()
     return (
-        <div className='card lg:max-w-lg bg-base-100 shadow-xl'>
-            <div
-                style={{ backgroundImage: `url(${img})` }}
-                className="shadow-lg shadow-dark group container rounded-md flex justify-center items-center mx-auto content-div"
-            >
-                {/* Hover Effects */}
-                <div className="opacity-0 group-hover:opacity-100">
-                    <span className="text-2xl font-bold text-white tracking-wider">
-                        {name}
-                    </span>
-                    <div className="pt-8 text-center">
-                        <a href={live} target="blank">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                Live
-                            </button>
-                        </a>
-                        <a href={client} target="blank">
-                            <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                Client
-                            </button>
-                        </a>
-                        {server && (
-                            <a href={server} target="blank">
-                                <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                                    Server
-                                </button>
-                            </a>
-                        )}
-                    </div>
+        <div class="card w-96 bg-base-100 shadow-xl">
+            <figure class="px-10 pt-10">
+                <img src={img} alt="Shoes" class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+                <h2 class="card-title">{name}</h2>
+                <p>{technology}</p>
+                <div class="card-actions">
+                    <a target='_blank' href={live} className="btn btn-primary" rel="noreferrer">
+                        Live
+                    </a>
+                    <button onClick={() => navigate(`/details/${id}`)} class="btn btn-primary">Details</button>
                 </div>
-            </div>
-            <div>
-                <p className="py-3 text-xl text-center">{theme}</p>
             </div>
         </div>
     );

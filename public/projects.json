@@ -3,8 +3,11 @@
         "id": 1,
         "name": "Bicycle",
         "theme": "Bicycle Parts Manufacture",
-        "img": "https://i.ibb.co/sw3t7Rc/Background-1.png",
+        "img": "https://i.ibb.co/ZTPmxRL/img.png",
+        "img2": "https://i.ibb.co/HXrDm6t/img2.png",
+        "img3": "https://i.ibb.co/cbsRRv9/img3.png",
         "live": "https://bicycle-manufacture.web.app/",
+        "technology": "React js, TailwindCss, Node js, Express Js, MongoDB, Jwt, Firebase, Heroku, stripe",
         "client": "https://github.com/nurulamin092/manufacture-webapp-client",
         "server": "https://github.com/nurulamin092/-manufacture-webapp-server"
     },
@@ -12,8 +15,11 @@
         "id": 2,
         "name": "Laptop",
         "theme": "Warehouse management",
-        "img": "https://i.ibb.co/xCjMNPL/banner1.png",
+        "img": "https://i.ibb.co/W0Rzmd1/img.png",
+        "img2": "https://i.ibb.co/tYGyQ6f/img2.png",
+        "img3": "https://i.ibb.co/vCFFLHR/img3.png",
         "live": "https://laptop-warehouse-9b862.web.app/",
+        "technology": "React js,React Bootstrap,  Node js, Express Js, MongoDB,  Firebase, Heroku",
         "client": "https://github.com/nurulamin092/warehouse-management-client",
         "server": "https://github.com/nurulamin092/warehouse-management-server"
     },
@@ -21,8 +27,11 @@
         "id": 3,
         "name": "Tooth Routine exams",
         "theme": "Doctor Service",
-        "img": "https://i.ibb.co/6b46Lz9/Background.png",
+        "img": "https://i.ibb.co/jwDsPr7/img.png",
+        "img2": "https://i.ibb.co/0nh5djM/img2.png",
+        "img3": "https://i.ibb.co/PCLqKdV/img3.png",
         "live": "https://doctor-service-provider.web.app/",
+        "technology": "React js, TailwindCss,Firebase, Heroku",
         "client": "https://github.com/nurulamin092/doctor-service-client"
     }
 ]
