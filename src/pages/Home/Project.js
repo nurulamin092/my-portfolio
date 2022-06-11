@@ -5,7 +5,7 @@ const Project = ({ project }) => {
     const { id, img, name, technology, theme, live, client, server } = project;
     const navigate = useNavigate()
     return (
-        <div class="card w-96 bg-base-100 shadow-xl">
+        <div class="card lg:max-w-lg bg-base-100 shadow-xl">
             <figure class="px-10 pt-10">
                 <img src={img} alt="Shoes" class="rounded-xl" />
             </figure>

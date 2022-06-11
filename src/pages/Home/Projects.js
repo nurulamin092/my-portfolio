@@ -9,7 +9,7 @@ const Projects = () => {
             .then((data) => setProjects(data));
     }, []);
     return (
-        <div className='my-10'>
+        <div className='my-10 bg-zinc-900 py-12 px-12 rounded-3xl gap-4'>
             <h1 className='text-5xl text-center font-bold my-10 text-white'>My Project</h1>
             <div className='grid lg:grid-cols-3 md:grid-cols-2 xs:grid-cols-1 gap-4 my-10'>
 

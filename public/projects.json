@@ -31,7 +31,7 @@
         "img2": "https://i.ibb.co/0nh5djM/img2.png",
         "img3": "https://i.ibb.co/PCLqKdV/img3.png",
         "live": "https://doctor-service-provider.web.app/",
-        "technology": "React js, TailwindCss,Firebase, Heroku",
+        "technology": "React js,React Bootstrap, TailwindCss,Firebase",
         "client": "https://github.com/nurulamin092/doctor-service-client"
     }
 ]

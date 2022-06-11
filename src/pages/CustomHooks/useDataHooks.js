@@ -34,7 +34,7 @@ const data = [
         link: "https://doctor-service-provider.web.app/",
         client: "https://github.com/nurulamin092/doctor-service-client",
         picture: "https://i.ibb.co/Cs4TczN/Screenshot-2022-06-09-183625.png",
-        technology: "React js, Bootstrap, Node js, Express Js, MongoDB, Firebase, Heroku",
+        technology: "React js, Bootstrap, TailwindCss, Firebase",
         img1: "https://i.ibb.co/jwDsPr7/img.png",
         img2: "https://i.ibb.co/0nh5djM/img2.png",
         img3: "https://i.ibb.co/PCLqKdV/img3.png"
